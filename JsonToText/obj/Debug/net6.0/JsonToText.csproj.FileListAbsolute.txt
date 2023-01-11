@@ -1,0 +1,17 @@
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/bin/Debug/net6.0/JsonToText
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/bin/Debug/net6.0/JsonToText.deps.json
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/bin/Debug/net6.0/JsonToText.runtimeconfig.json
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/bin/Debug/net6.0/JsonToText.dll
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/bin/Debug/net6.0/ref/JsonToText.dll
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/bin/Debug/net6.0/JsonToText.pdb
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.csproj.AssemblyReference.cache
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.GeneratedMSBuildEditorConfig.editorconfig
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.AssemblyInfoInputs.cache
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.AssemblyInfo.cs
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.csproj.CoreCompileInputs.cache
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.dll
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/ref/JsonToText.dll
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.pdb
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.genruntimeconfig.cache
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/bin/Debug/net6.0/Newtonsoft.Json.dll
+/home/kgk/Repo/GitHub/TechnicalChallenge/kaizen/GenerateCode/JsonToText/obj/Debug/net6.0/JsonToText.csproj.CopyComplete
