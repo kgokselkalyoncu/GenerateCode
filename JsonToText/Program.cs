@@ -12,18 +12,23 @@ int min_x, min_y, max_x, max_y;
 
 int i = 0;
 string text = "";
+
 int tempX = 0;
+int tempY = 0;
+
+// int tempX1 = 0;
+// int tempX2 = 0;
+// int tempX3 = 0;
+// int tempX4 = 0;
+
+// int tempY1 = 0;
+// int tempY2 = 0;
+// int tempY3 = 0;
+// int tempY4 = 0;
 
 foreach(ResponseModel responseModel in responseModels){
 
-    if(i == 0)
-    {
-        // x1 = responseModel.boundingPoly.vertices[1].x;
-        // y1 = responseModel.boundingPoly.vertices[1].y;
-        // x2 = 30+responseModel.boundingPoly.vertices[1].x+(responseModel.boundingPoly.vertices[1].x-responseModel.boundingPoly.vertices[0].x);
-        // y2 = responseModel.boundingPoly.vertices[2].y;
-    }
-    else
+    if(i > 0)
     {
         List<int> listX = new List<int>();
         List<int> listY = new List<int>();
@@ -37,48 +42,36 @@ foreach(ResponseModel responseModel in responseModels){
         int y2 = responseModel.boundingPoly.vertices[1].y;
         int y3 = responseModel.boundingPoly.vertices[2].y;
         int y4 = responseModel.boundingPoly.vertices[3].y;
-
-        listX.Add(x1);
-        listX.Add(x2);
-        //listX.Add(x3);
-        //listX.Add(x4);
-
-        listY.Add(y1);
-        //listY.Add(y2);
-        //listY.Add(y3);
-        listY.Add(y4);
-
-        min_x = listX.Min();
-
-        min_y = listY.Min();
         
-        max_x = listX.Max();
+        //Console.WriteLine("x1 : " + x1 + " x2 : " + x2 + " x3 : " + x3 + " x4 : " + x4);
+        //Console.WriteLine("y1 : " + y1 + " y2 : " + y2 + " y3 : " + y3 + " y4 : " + y4);
 
-        max_y = listY.Max();
-        
-        //Console.WriteLine("x1:"+x1+" x2:"+x2+" y1:"+y1+" y2:"+y2);
-        //Console.WriteLine("min_x:"+min_x+" min_y:"+min_y+" max_x:"+max_x+" max_y:"+max_y);
-        //Console.WriteLine(responseModel.description + " Box : [" + x1 + "," + y1 +"] [" + x2 + "," + y2 +"] [" + x3 + "," + y3 +"] [" + x4 + "," + y4 +"]");
-        //Console.WriteLine(responseModel.description + " Box : [" + min_x + "," + min_y +"] [" + max_x + "," + max_y +"]");
-        Console.WriteLine(responseModel.description + " Box : [" + min_x + "," + max_x + "," + min_y + "," + max_y + "]");
+        //Console.WriteLine("--------------------");
 
-        // if(min_x > tempX){
-        //     Console.Write(responseModel.description + " ");
-        // }
 
-        // tempX = min_x;
-
-        
-
-        /*if(min_x >= x1 &&  max_x <= x2 && min_y >= y1 && max_y <= y2){
-            text += responseModel.description;
+        if(tempX == 0 && tempY == 0){
+            Console.WriteLine(responseModel.description);
         }
         else{
-            text += '\n';
-        }*/
+            if(x1 > tempX)
+            {
+                Console.Write(responseModel.description + " ");
+            }
+            else{
+                if(y4 > tempX){
+                    Console.WriteLine(responseModel.description);
+                }
+                else{
+                    Console.Write(responseModel.description + " ");
+                }
+            }
+        }
+
+        tempX = x1;
+        tempY = y4;
     }
     i++;
 }
-var x = "test";
-//Console.WriteLine(text);
+
+Console.WriteLine(text);
 Console.ReadLine();
